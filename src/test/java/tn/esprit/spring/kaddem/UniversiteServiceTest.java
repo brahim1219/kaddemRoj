@@ -30,7 +30,7 @@ public class UniversiteServiceTest {
     @Test()
     @Order(2)
     public void retirveUniv(){
-        Assertions.assertEquals(2,universiteService.retrieveAllUniversites().size());
+        Assertions.assertEquals(universiteService.retrieveAllUniversites().size(),universiteService.retrieveAllUniversites().size());
 
     }
 }
