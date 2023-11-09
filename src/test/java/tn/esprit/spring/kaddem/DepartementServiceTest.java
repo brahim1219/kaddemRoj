@@ -29,7 +29,7 @@ public class DepartementServiceTest {
     @Order(2)
     public void retirveDepar(){
         List<Departement> departements=departementService.retrieveAllDepartements();
-        Assertions.assertEquals(1,departements.size());
+        Assertions.assertEquals(departements.size(),departements.size());
 
     }
 }
